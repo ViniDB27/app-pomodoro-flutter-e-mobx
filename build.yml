@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      mox_codegen|mox_generator:
+        generate_for:
+          - "lib/store/**.sotre.dart"
